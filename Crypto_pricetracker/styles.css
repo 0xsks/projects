@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Styling for the crypto cards */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.crypto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.crypto-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.crypto-price {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: #777;
+}
+
+.crypto-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+/* Styling for the cryptocurrency summary */
+.crypto-summary {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.summary-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.summary-text {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Styling for the chart and description */
+.crypto-chart-container {
+    display: none;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#chart-container {
+    width: 69%;
+    margin: auto;
+}
+
+.crypto-description {
+    display: none;
+    padding: 20px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Crypto Price Tracker</h1>
+    <div class="container" id="crypto-container">
+        <div class="crypto-card" data-crypto-symbol="bitcoin">
+            <div class="crypto-info">
+                <h2 class="crypto-title">Bitcoin</h2>
+                <p class="crypto-price">$50,000</p>
+            </div>
+            <button class="crypto-button">View Chart</button>
+        </div>
+        <div class="crypto-card" data-crypto-symbol="ethereum">
+            <div class="crypto-info">
+                <h2 class="crypto-title">Ethereum</h2>
+                <p class="crypto-price">$3,000</p>
+            </div>
+            <button class="crypto-button">View Chart</button>
+        </div>
+        <div class="crypto-card" data-crypto-symbol="solana">
+            <div class="crypto-info">
+                <h2 class="crypto-title">Solana</h2>
+                <p class="crypto-price">$150</p>
+            </div>
+            <button class="crypto-button">View Chart</button>
+        </div>
+        <div class="crypto-card" data-crypto-symbol="matic-network">
+            <div class="crypto-info">
+                <h2 class="crypto-title">Polygon (MATIC)</h2>
+                <p class="crypto-price">$1.50</p>
+            </div>
+            <button class="crypto-button">View Chart</button>
+        </div>
+    </div>
+    <div id="chart-container">
+        <canvas id="crypto-chart"></canvas>
+    </div>
+    <div class="crypto-summary" id="crypto-summary">
+        <div class="crypto-summary-content">
+            <h2 class="summary-title">Summary</h2>
+            <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
